@@ -1,6 +1,3 @@
-Xcode5_plug-in_template
-=======================
-
 # Xcode 5 plug-in template
 
 Basic template for creating a plugin for Xcode 5 dev 6 and hopefully it will work in the GM.
@@ -24,14 +21,15 @@ I have not been able to figure out how i can define this entry in the template!
 If anyone has this knowledge please let me know or fork the project to fix it.
 
 You need to add this key and value to the plist file:
-'''XML
+```XML
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <array>
 	<string>63FC1C47-140D-42B0-BB4D-A10B2D225574</string>
 </array>
-</plist>'''
+</plist>
+```
 
 This will whitelist the plug-in and allow it to run in Xcode 5.
 
@@ -44,5 +42,5 @@ This will whitelist the plug-in and allow it to run in Xcode 5.
 ### Plugin Debugging
 
 - I would recommend keeping a console open with `tail -f /var/log/system.log` running, for that special moment when you crash Xcode, or want to see the output of your `NSLog()` statements.
-- Since Xcode 5, Xcode uses ARC internally, so the plug-in does not have to use manual memory management anymore.:-D
+- Since Xcode 5, Xcode uses ARC internally, so the plug-in does not have to use manual memory management anymore:-D
 
