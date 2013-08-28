@@ -16,7 +16,7 @@ It is an adaptation of the XCode 4 plugin by [Delisa Mason - xcode 4 plugin temp
 The default plugin file links against `AppKit` and `Foundation`, and, when built (and Xcode is restarted), creates a menu item labeled "Do Action" in the File menu. Pressing the menu item should open an alert. Customize at will!
 
 ##Important
-For this plug-in to work you need to manually add a key to the **"projectname".plist** of the project.
+For this plug-in to work you need to manually add a key to the **'projectname'.plist** of the project.
 I have not been able to figure out how i can define this entry in the template! 
 If anyone has this knowledge please let me know or fork the project to fix it.
 
