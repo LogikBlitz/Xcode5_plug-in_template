@@ -22,13 +22,10 @@ If anyone has this knowledge please let me know or fork the project to fix it.
 
 You need to add this key and value to the plist file:
 ```XML
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<plist version="1.0">
-<array>
-	<string>63FC1C47-140D-42B0-BB4D-A10B2D225574</string>
-</array>
-</plist>
+<key>DVTPlugInCompatibilityUUIDs</key>
+	<array>
+		<string>63FC1C47-140D-42B0-BB4D-A10B2D225574</string>
+	</array>
 ```
 
 This will whitelist the plug-in and allow it to run in Xcode 5.
