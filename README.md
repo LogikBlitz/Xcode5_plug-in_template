@@ -15,7 +15,7 @@ It is an adaptation of the XCode 4 plugin by [Delisa Mason - xcode 4 plugin temp
 
 The default plugin file links against `AppKit` and `Foundation`, and, 
 when built (and Xcode is restarted), creates a menu item labeled "Do Action" in the File menu
-including a shortcut key-combination 'alt+a'.   
+including a shortcut key-combination `alt+a`.   
 Pressing the menu item should open an alert. Customize at will!
 
 ##Important
